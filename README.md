@@ -46,3 +46,9 @@ return this.serverStatus === 'online' ? 'green' : 'red';
 Do new versions automaticallt inmport when adding to declerations? Did it when working on the app
 
 When creating components, --skip-tests is used to make no test file
+
+Error messages start with the class and then goes to the line, and then give the reason.
+
+In console debugging you can go to sources to see the source map that you can use to go back to decode. Then you can put in break points.
+
+Typescript is found in the sources them folder "." then under the app heading
