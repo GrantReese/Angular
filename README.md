@@ -52,3 +52,30 @@ Error messages start with the class and then goes to the line, and then give the
 In console debugging you can go to sources to see the source map that you can use to go back to decode. Then you can put in break points.
 
 Typescript is found in the sources them folder "." then under the app heading
+
+When deciding when to split things look for things that can be reused.
+
+Property and even binding can be used to pass information from components and html
+
+Right side of the "=" is assigning a value
+
+By defualt the properties of components are only accesable inside the component.
+Decorators are used to make components accesable to the world, the proper decorator is input(). You can give it an alias inside the brackets @input('whateveryouwanthealiastobe')
+
+You can set up listening events to pass information back to the app. Evetnemitter is a generic type and you define the data type.
+
+Angular forces css to apply styling to specific components vs the document as a whole.
+
+ViewEncapsulation lets you see what encapsulation that are being applied.
+
+<ng-content> used as a hook to put content
+
+Lifecyle
+ngOnChanges called after a change
+ngOnInit once initialized
+ngDoCheck called during change detection run
+ngAfterContentInit called after content has been projected to view
+ngAfterContentChecked called after content has been checked
+ngAfterViewInit called after it has been initialized
+ngAfterViewChecked called every time the view have been checked
+ngOnDestroyu called once a component is about to be destroyed
