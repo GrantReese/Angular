@@ -79,3 +79,9 @@ ngAfterContentChecked called after content has been checked
 ngAfterViewInit called after it has been initialized
 ngAfterViewChecked called every time the view have been checked
 ngOnDestroyu called once a component is about to be destroyed
+
+Directives Deep dive
+Attribute Directives sit on elements
+Strutctural Directives change the dom around the element
+
+ngfor
