@@ -80,8 +80,18 @@ ngAfterViewInit called after it has been initialized
 ngAfterViewChecked called every time the view have been checked
 ngOnDestroyu called once a component is about to be destroyed
 
-Directives Deep dive
 Attribute Directives sit on elements
 Strutctural Directives change the dom around the element
 
 ngfor
+
+What is an API? It is a server you send requests to, either REST (most common) or GraphQL
+What are HTTP requests? What is the purpose of requests? The requests ask for data to prevent you from having to expose all the backend data to the site
+What are the main HTTP verbs?(post, get, put)
+How does Angular make HTTP requests? As an observable? Sent through a get request
+
+You don't connect directly to back end sql or nosql because it wouldn't be secure.
+
+Url is api endpoint, also has an http verb (post, get, put) headers are metadata (content type), can also have body which would have core data (post, put, patch)
+
+Need to add httpclient model from @angular/common/http
